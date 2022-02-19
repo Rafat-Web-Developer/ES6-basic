@@ -21,3 +21,18 @@ const multiLine= (a, b, c) => {
     return r2;
 };
 console.log(multiLine(5, 3, 2));
+
+const information = info => {
+    const fName = info.fName;
+    const lName = info.lName;
+    const email = info.email;
+    const string = `My Name is ${fName} ${lName}. My email address is ${email}.`
+    return string;
+}
+const info = {
+    fName : 'Rafat',
+    lName : 'Hossain',
+    email : 'rafatcse86@gmail.com'
+};
+const result = information(info);
+console.log(result);
