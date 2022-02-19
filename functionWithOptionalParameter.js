@@ -26,7 +26,11 @@
 
 // //--New system for call a function and passing parameter.--//
 function add(a, b = 0){
-    return a+b;
+    return a + b;
 }
-
 console.log(add(5));
+
+function multiplication(a, b = 1){
+    return a * b;
+}
+console.log(multiplication(5, 2));
