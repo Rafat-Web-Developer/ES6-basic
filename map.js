@@ -8,3 +8,19 @@ console.log(output);
 const numbers2 = [2, 3, 4];
 const output2 = numbers2.map(x => x * x);
 console.log(output2);
+
+// More Practice
+const friends = ['Jubair', 'Ahmed', 'Junjun', 'Sayem', 'Mohammad', 'Rakib'];
+const friendLength = friends.map(friend => friend.length);
+console.log(friendLength);
+
+const info = [
+    {name: 'Jubair', salary: 25000},
+    {name: 'Sayem', salary: 50000},
+    {name: 'Ahmed', salary: 75000}
+];
+const employeeName = info.map(information => information.name);
+const employeeSalary = info.map(information => information.salary);
+console.log(employeeName);
+console.log(employeeSalary);
+// info.map(information => console.log(information));
