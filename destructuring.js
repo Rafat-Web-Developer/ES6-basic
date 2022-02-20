@@ -24,3 +24,7 @@ const phonesInformation = {
 
 const { name, price } = phonesInformation.category1;
 console.log(`My phone name is ${name} and it's price is ${price}.`);
+
+const friends = ['Jubair', 'Fahim', 'Sayem'];
+const [ f1, f2, f3 ] = friends;
+console.log(`My first friend name is ${f1}. My Second friend name is ${f2}. And my third friend name is ${f3}.`);
